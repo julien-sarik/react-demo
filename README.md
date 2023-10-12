@@ -13,7 +13,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-`podman run --rm --name react -p 3000:3000 -v ${PWD}:/react-demo -w /react-demo node:20-alpine3.17 npm start`
+The app can be started with:  
+`podman run --rm --name react -p 3000:3000 -v ${PWD}:/react-demo -w /react-demo node:20-alpine3.17 npm start`  
+It will spin up the SPA on http://localhost:3000/.
 
 ### `npm test`
 
