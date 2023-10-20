@@ -23,6 +23,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://julien-sarik.github.io/react-demo/",
   "browserslist": {
     "production": [
       ">0.2%",
